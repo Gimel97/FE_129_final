@@ -1,0 +1,42 @@
+.delivery{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+  }
+  
+.delivery_cart{
+    margin-left: 8px;
+  }
+
+  .close{
+display: none; 
+  }
+
+  @media (max-width: 930px) {
+    /* .delivery img{
+      height: 24px;
+    } */
+    .delivery{
+      height: 24px;
+      font-size: 10px;
+      /* margin-bottom: 16px; */
+    }
+
+    .delivery img{
+      height: 24px;
+    }
+
+    /* .close{
+      display: flex;
+      font-family: Nunito;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 14px;
+      color: #B1B1B1;
+      align-items: center;
+      margin-left: 103px;
+    } */
+  }
+  @media (max-width: 320px) {
+    
+  }

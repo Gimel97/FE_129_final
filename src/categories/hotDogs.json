@@ -1,0 +1,23 @@
+[
+    {
+      "id": 0,
+      "image": "./images/hot1.jpg",
+      "price": 290,
+      "title": "Домашний хот-дог",
+      "weight": 250
+    },
+    {
+      "id": 1,
+      "image": "./images/hot2.jpg",
+      "price": 239,
+      "title": "Жгучий хот-дог",
+      "weight": 245
+    },
+    {
+      "id": 2,
+      "image": "./images/hot3.jpg",
+      "price": 220,
+      "title": "Классический хот-дог",
+      "weight": 215
+    }
+]

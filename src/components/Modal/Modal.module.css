@@ -1,0 +1,276 @@
+.overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .modalContainer{
+    width: 684px;
+    border-radius: 24px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+  }
+
+  .closeBtn{
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+  }
+
+.full_title{
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+  
+  .content{
+    display: flex;
+    margin-bottom: 38px;
+  }
+  
+  .full_img{
+    width: 276px;
+    height: 220px;
+    padding-left: 24px;
+    padding-right: 16px;
+    border-radius: 16px; 
+  }
+  
+  .content_text{
+    display: block;
+    width: 344px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  
+  .description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  }
+  
+  .name_structure{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  margin-top: 10px;
+  }
+  
+  .structure{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  }
+  
+  .info{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #B1B1B1;
+  }
+  
+  .content_footer{
+    margin-left: 24px;
+    margin-right: 24px; 
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add_count{
+    display: flex;
+  }
+  
+  .Add{
+    width: 276px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #FF7020;
+    color: #FFFFFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+  }
+  
+  .btn_count{
+    width: 84px;
+    height: 40px;
+    background: #F2F2F3;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .count_minus, .count_plus, .count_number{
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+    background: #F2F2F3;
+  }
+  .count_minus:disabled{
+    opacity: 0.2;
+  }
+  
+  .count_number{
+    margin-left: 18px;
+    margin-right: 15px;
+    cursor: default;
+  }
+  
+  .price{
+    margin-top: 4px;
+  }
+
+  @media (max-width: 930px) {
+    .modalContainer{
+      width: 524px;
+      height: 324px;
+    }
+    .full_title{
+      margin-top: 16px;
+      padding-top: 0;
+      padding-left: 16px;
+      padding-bottom: 16px;
+      margin-bottom: 0;
+    }
+    .content{
+      margin-bottom: 24px;
+    }
+    
+    .full_img{
+      width: 226px;
+      height: 180px;
+      padding-left: 16px;
+      padding-right: 8px;
+    }
+
+    .content_text{
+      width: 258px;
+    }
+    
+    .description{
+    font-size: 12px;
+    line-height: 15px;
+    }
+    
+    .name_structure{
+    font-size: 10px;
+    line-height: 13px;
+    }
+    
+    .structure{
+    font-size: 10px;
+    line-height: 13px;
+    }
+    
+    .info{
+    font-size: 10px;
+    line-height: 13px;
+    }
+    
+    .content_footer{
+      margin-left: 16px;
+      margin-right: 16px; 
+    }
+        
+    .Add{
+      width: 218px;
+      height: 30px;
+      margin-right: 8px;
+      border-radius: 8px;
+      font-size: 12px;
+      line-height: 12px;
+    }
+    
+    .btn_count{
+      width: 74px;
+      height: 30px;
+      border-radius: 8px;
+    }
+    
+    .count_minus, .count_plus, .count_number{
+      font-size: 12px;
+      line-height: 16px;
+    }
+    
+    .count_number{
+      margin-left: 19px;
+      margin-right: 17px;
+      cursor: default;
+    }
+    
+    .price{
+      margin-top: 4px;
+    }
+
+  }
+
+ 
+  @media (max-width: 720px){
+    .modalContainer{
+      width: 320px;
+      height: 590px;
+      /* border-radius: 12px; */
+    }
+    .full_title{
+      margin-top: 32px;
+      padding-left: 10px;
+      padding-bottom: 12px;
+    }
+
+    .closeBtn{
+      right: 10px;
+    }
+    
+    .content{
+      display: block;
+    }
+    
+    .full_img{
+      width: 300px;
+      height: 232px;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 16px;
+    }
+
+    .content_text{
+      width: 300px;
+      margin-left: 10px;
+    }
+
+    .content_footer{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+          
+    .price{
+      margin-top: 46px;
+      margin-left: -50px;
+    }
+  }
+  
+
+  
+
+  

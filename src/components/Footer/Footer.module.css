@@ -1,0 +1,318 @@
+footer{
+    background-color: #FFFFFF;
+    display: block;
+    height: 244px;
+  }
+
+  .footer{
+    max-width: 1440px;
+    width: 100%;
+    display: block;
+    margin: 0 auto; 
+  }
+
+  /* .content_footer{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+  } */
+  
+  .logo_footer{
+    /* max-width: 1440px;
+    width: 100%; */
+    
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+  }
+
+  .logo_img{
+    width: 305px;
+    height: 66.5px;
+    margin-top: 47px;
+    margin-bottom: 59px;
+    margin-left: 75px;
+  }
+  
+  .development{
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0 auto;
+    /* width: 100%;
+    max-width: 1440px; */
+    margin-left: 75px;
+  }
+  
+  .contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 52px;
+    margin-right: 75px;
+    margin-left: 356px;
+  }
+
+  .contacts_number{
+    width: 205px;
+  }
+  
+  .number_title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+  }
+  
+  .phone_number{
+    margin-top: 1.5px;
+    margin-left: 4px;
+  }
+  
+  .number{
+    margin-left: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    margin-top: 25px;
+    display: flex;
+  }
+  
+  .social{
+    
+    width: 164px;
+  }
+  
+  .social_title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+  }
+  
+  .social_icons{
+    margin-top: 22px;
+  }
+
+  .social_icons img{
+    cursor: pointer;
+  }
+
+  .vk{
+    margin-right: 16px;
+
+  }
+
+  @media (max-width: 1200px){
+    .contacts{
+      margin-left: 150px;
+    }
+  }
+
+  @media (max-width: 1024px){
+    .content_footer{
+      width: 960px;
+    }
+
+    .logo_footer{
+      width: 1000px;
+      margin-top: 40px;
+      margin-left: -43px;
+    }
+    .contacts{
+     width: 420px;
+     margin-right: 0;
+     margin-left: 200px;
+    }
+
+    .development{
+      margin-left: 40px;
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 975px){
+    .logo_footer{
+      width: 850px;
+    }
+
+    .contacts{
+      margin-left: 80px;
+    }
+  }
+
+  @media (max-width: 930px){
+    .logo_img{
+      width: 199px;
+      height: 44px;
+    }
+
+    .contacts{
+      width: 353px;
+    }
+
+    .number_title{
+      font-size: 18px;
+    }
+
+    .number{
+      font-size: 12px;
+      margin-top: 8px;
+      margin-left: 0;
+    }
+
+    .number img{
+      width: 18px;
+      height: 18px;
+      margin-left: 0;
+    }
+
+    .phone_number{
+      margin-top: 4px;
+    }
+
+    .development{
+      margin-top: 40px;
+      width: 600px;
+      margin-left: 40px;
+      margin-right: 0;
+    }
+
+    .social{
+      width: 123px;
+      height: 62px;
+    }
+
+    .social_title{
+      font-size: 18px;
+    }
+
+    .social_icons{
+      margin-top: 8px;
+      width: 88px;
+      height: 36px;
+      display: flex;
+    }
+
+    .social_icons img{
+      width: 36px;
+      height: 36px;
+    }
+  
+    .vk{
+      margin-left: 0;
+      margin-right: 16px;
+  
+    }
+  }
+
+  @media (max-width: 808px){
+    .logo_footer{
+      max-width: 200px;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px){
+    .footer{
+      height: 278px;
+    }
+
+    .logo_footer{
+      display: block;
+      margin-left: 64px;
+    }
+
+
+    .logo_img{
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-top: 40px;
+    }
+
+    .contacts{
+      display: flex;
+      margin-top: 33px;
+      margin-left: 0;
+      width: 453px;
+      
+    }
+
+    .development{
+      margin-left: 64px;
+    }
+    
+  }
+
+  @media (max-width: 720px){
+    .development{
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 560px){
+    .contacts{
+      width: 350px;
+    }
+  }
+
+  @media (max-width: 450px){
+    .logo_footer{
+      margin-left: 20px;
+      max-width: 300px;
+      width: 100%;
+    }
+
+    .development{
+      margin-left: 20px;
+      width: 300px;
+      margin-top: 34px;
+    }
+    .contacts{
+      max-width: 290px;
+      width: 100%;
+    }
+
+    .contacts_number{
+      width: 153px;
+    }
+
+  }
+
+  @media (max-width: 325px){
+    .footer{
+      height: 318px;
+      width: 320px;
+    }
+
+    .logo_footer{
+      margin-left: 10px;
+    }
+
+    .logo_img{
+      margin-top: 24px;
+      width: 196px;
+      height: 38px;
+      margin-left: -13px;
+    }
+
+    .contacts{
+      display: block;
+      width: 300px;
+      margin-left: 0px;
+      margin-top: 24px;
+    }
+
+    .contacts_number{
+      width: 153px;
+      height: 50px;
+      margin-bottom: 24px;
+    }
+
+    .development{
+      margin-left: 10px;
+    }
+  }

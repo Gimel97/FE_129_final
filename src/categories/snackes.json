@@ -1,0 +1,23 @@
+[
+    {
+      "id": 0,
+      "image": "./images/snack1.jpg",
+      "price": 250,
+      "title": "Начос",
+      "weight": 220
+    },
+    {
+      "id": 1,
+      "image": "./images/snack2.jpg",
+      "price": 245,
+      "title": "Картошка фри",
+      "weight": 180
+    },
+    {
+      "id": 2,
+      "image": "./images/snack3.jpg",
+      "price": 230,
+      "title": "Луковые кольца",
+      "weight": 160
+    }
+]
