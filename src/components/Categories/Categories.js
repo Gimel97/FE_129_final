@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import styles from './Categories.module.css';
 
 function Categories({ value, onChangeCategory }) {
@@ -19,7 +18,7 @@ function Categories({ value, onChangeCategory }) {
     return (
       <div className='categories'>
         <ul>
-        {categories.map((categoryName, i) => (
+          {categories.map((categoryName, i) => (
               <li key={i} onClick={() => onChangeCategory(i)} className={value === i ? styles.active : ''}>  
               <img className={styles.cat} src={categoryName.img} />
               <a>{categoryName.name}</a>

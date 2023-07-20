@@ -38,30 +38,17 @@ const CartItem = ({id, title, price, weight, image, description, ingredients, ca
         dispatch(removeItem(id))
     }
 
-   
-    // const [foodCount, setFoodCount] = useState(0);
-
-    // const onClickPlus = () => {
-    //     setFoodCount(foodCount + 1);
-    // }
-
-    // const onClickMinus = () => {
-    //     setFoodCount(foodCount - 1);
-    // }
-
     return(
         <>
-        
-       
             <div className={styles.cart_content}>
             
                 <div className={styles.info_cart}>
-                <img onClick={() => setModalVisible(true)} className={styles.img_product} src={image} alt="" /> 
-                <div className={styles.info_text}>
-                    <p className={styles.info_food}>{title}</p>
-                    <p className={styles.info_food_weight}> {weight} г</p>
-                    <p className={styles.info_food}>{price} ₽</p>
-                </div>
+                    <img onClick={() => setModalVisible(true)} className={styles.img_product} src={image} alt="" /> 
+                    <div className={styles.info_text}>
+                        <p className={styles.info_food}>{title}</p>
+                        <p className={styles.info_food_weight}> {weight} г</p>
+                        <p className={styles.info_food}>{price} ₽</p>
+                    </div>
                 </div>
 
                 <div className={styles.btn_count}>

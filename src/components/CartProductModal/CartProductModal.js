@@ -2,7 +2,6 @@ import Modal from 'react-modal';
 import styles from './CartProductModal.module.css';
 import { useDispatch } from 'react-redux';
 import { addItem, minusItem, removeItem } from "../../redux/slices/cartSlice";
-import { useState } from 'react';
 import { useSelector } from 'react-redux';
 
 const PhotoModal = ({isOpen, onClose, id, title, image, description, ingredients, weight, calories, price, name}) => {
@@ -27,45 +26,31 @@ const PhotoModal = ({isOpen, onClose, id, title, image, description, ingredients
         dispatch(addItem(item));
     }
 
-    
-
-    
- 
-    
-
     return(
         <Modal
         isOpen={isOpen}
         onRequestClose={onClose}
         className={styles.overlay}
         >
-           
-             <div className={styles.modalContainer}>
+            <div className={styles.modalContainer}>
                 <div className={styles.header}>
                     <img onClick={onClose} src="./images/close.svg" className={styles.closeBtn} alt="" />
                     <div className={styles.content_price}>
                         <h3 className={styles.full_title}>{title}</h3>
-                    
-                        
-                         <h4 className={styles.price}>{price}₽</h4>
-  
+                        <h4 className={styles.price}>{price}₽</h4>
                     </div>
                 </div>
             
-               
-             <div className={styles.content}>
-                 <img className={styles.full_img} src={image}/>
-                 <div className={styles.content_text}>
-                      <p className={styles.description}>{description}</p>
-                      <p className={styles.name_structure}>Состав:</p>
-                      <p className={styles.structure}>{ingredients} </p>
-                      <p className={styles.info}>{weight}г, ккал {calories}</p>
-                   </div>
-                  </div>
-                  
-
-              </div>
-      
+                <div className={styles.content}>
+                    <img className={styles.full_img} src={image}/>
+                    <div className={styles.content_text}>
+                        <p className={styles.description}>{description}</p>
+                        <p className={styles.name_structure}>Состав:</p>
+                        <p className={styles.structure}>{ingredients} </p>
+                        <p className={styles.info}>{weight}г, ккал {calories}</p>
+                    </div>
+                </div>
+            </div>
          
         </Modal>
     )

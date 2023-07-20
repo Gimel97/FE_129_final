@@ -6,14 +6,7 @@
 
 body{
   background-color: #F9F9F9;
-  /* overflow-x: hidden; */
-  /* display: inline-block;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto; */
-
 }
-
 
 h1, h2, h3, h4, h6 p, a, button{
   font-family: 'Nunito', sans-serif;
@@ -24,7 +17,6 @@ h1{
   font-size: 50px;
   line-height: 120%;
   color: #FFFFFF;
-  /* width: 407px; */
   height: 120px;
 }
 
@@ -44,8 +36,6 @@ h3{
   margin-bottom: 24px;
     
 }
-
-
 
 h4{
   font-weight: 600;
@@ -146,30 +136,22 @@ h4{
     font-size: 16px;
     margin-top: 16px;
     margin-left: -6px;
-     
   }
 
   .main{
-    /* display: block; */
     margin-left: 64px;
     margin: 0 auto;
   }
 
   .burgers{
-    /* width: 350px; */
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
     margin-bottom: 80px;
   }
 
-  .content_food {
-   /* display: inline-block; */
-  }
-
   .content_food h3{
     margin-top: 80px;
-  
   }
 }
 
@@ -179,27 +161,17 @@ h4{
   }
 }
 
-@media (max-width: 808px){
-  /* .content_food h3{
-    width: 300px;
-  } */
-}
-
 @media (max-width: 720px){
 
 .main{
   display: flex;
-  margin: 0 auto;
- 
+  margin: 0 auto; 
 }
 
-  .burgers{
+.burgers{
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  .content_food{
-    /* margin-left: 50px; */
-    
-  }
+}
+  
 }
 
 @media (max-width: 516px){
@@ -225,30 +197,8 @@ h4{
       grid-gap: 5px;
     }
       
-    }
-
-  
-
-/* @media (max-width: 600px){
-  .main{
-    margin-left: 10px;
-  }
-  .content_food {
-    width: 300px;
   }
 
-  .burgers{
-    width: 300px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-    margin-bottom: 80px;
-  }
-
-  .content_food{
-    
-  }
-} */
 
 
 

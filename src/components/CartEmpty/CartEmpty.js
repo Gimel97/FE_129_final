@@ -8,12 +8,11 @@ const CartEmpty = () => {
     return(
         <div className={styles.main_cart}>
             <div className={styles.main_cart_header}>
-            <h4>Корзина</h4>
-            <button className={styles.sum}>{totalCount}</button>
+                <h4>Корзина</h4>
+                <button className={styles.sum}>{totalCount}</button>
             </div>
             <p className={styles.empty}>Тут пока пусто :(</p>
         </div>
-        
     )
 }
 

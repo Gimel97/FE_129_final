@@ -3,11 +3,9 @@ import styles from "./Arrange.module.css";
 import { useState } from "react";
 import { clearItems } from "../../redux/slices/cartSlice";
 import { useDispatch } from "react-redux";
-// import validation from '../Validation/Validation';
 
 const Arrange = () => {
   const dispatch = useDispatch();
-  // const {items, totalPrice} = []
 
   const clearCart = () => {
     dispatch(clearItems())
@@ -105,9 +103,7 @@ const Arrange = () => {
      <div className={styles.success}> 
      {Object.keys(formErrors).length === 0 && isSubmit ? clearCart() || (<h6 className={styles.successOrder}>Заказ принят!</h6>): 
      (<div className={styles.forms}>
-      
-      
-        
+
         <h4 className={styles.title}>Доставка</h4>
         <form onSubmit={handleSubmit} className={styles.basic}>
           <input
@@ -157,9 +153,9 @@ const Arrange = () => {
           </label>
         </div>
         {content}
-         <div className={styles.arrange}>
-        <button className={styles.arrangeBtn}>Оформить</button>
-      </div>
+        <div className={styles.arrange}>
+          <button className={styles.arrangeBtn}>Оформить</button>
+        </div>
         </form>
       </div>
      

@@ -7,10 +7,9 @@ function Header() {
         
           <div className={styles.logo}>
             <Link to="/">
-            <img className={styles.logo_img} src="/images/logo.svg" alt="" />
+              <img className={styles.logo_img} src="/images/logo.svg" alt="" />
             </Link>
           </div>
-        
         
         <div className={styles.main}>
           <div className={styles.burger_header}>

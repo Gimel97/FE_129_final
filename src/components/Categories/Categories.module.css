@@ -43,7 +43,7 @@ ul {
     color: #000000;
     }
 
-    @media (max-width: 1100px) {
+  @media (max-width: 1100px) {
       ul{
         max-width: 1000px;
         width: 100%;
@@ -116,28 +116,19 @@ ul {
         .cat{
           margin-left: 10px;
         }
-      
       }
 
-      @media (max-width: 516px){
+    @media (max-width: 516px){
         ul{
           grid-template-columns: 1fr 1fr 1fr;
-       
           width: 300px;
         }
-
-       
-      
       }
 
-      @media (max-width: 320px){
+    @media (max-width: 320px){
         ul{
           grid-template-columns: 1fr 1fr 1fr;
-       
           width: 290px;
         }
-
-       
-      
       }
     
