@@ -59,7 +59,7 @@ const PhotoModal = ({isOpen, onClose, id, title, image, description, ingredients
                           <div className={styles.btn_count}>
                               <button disabled={addedCount === 1} onClick={onClickMinus} className={styles.count_minus}>-</button>
                               <button className={styles.count_number}>{addedCount}</button>
-                              <button onClick={onClickPlus} className={styles.count_plus}>+</button>
+                              <button onClick={onClickAdd} className={styles.count_plus}>+</button>
                           </div>
                     </div>
                         <h4 className={styles.price}>{price}₽</h4>
