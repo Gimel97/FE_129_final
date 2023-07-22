@@ -3,6 +3,7 @@ import styles from "./Arrange.module.css";
 import { useState } from "react";
 import { clearItems } from "../../redux/slices/cartSlice";
 import { useDispatch } from "react-redux";
+import InputMask from 'react-input-mask';
 
 const Arrange = () => {
   const dispatch = useDispatch();
@@ -115,7 +116,8 @@ const Arrange = () => {
             onChange={handleChange}
           />
           <p className={styles.invalid}>{formErrors.name}</p>
-          <input
+          <InputMask
+          mask='+375999999999'
             className={styles.basic}
             type="phone"
             placeholder="Телефон"
